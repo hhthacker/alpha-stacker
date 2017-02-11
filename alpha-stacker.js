@@ -15,7 +15,7 @@ function stackLetters (theAlphabetArray) {
 
 //if statement to add space after every 3rd letter
 function stackSpaceLetters (theAlphabetArray) {
-for (var i = 0; i < alphabet.length; i++) {
+	for (var i = 0; i < alphabet.length; i++) {
 	if (i%3 === 0) {
 		letterSpace += " ";
 	}
